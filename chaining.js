@@ -12,3 +12,16 @@ console.log(excellent);
 
 const [k, u] = ['shah alam', 'aiman'];
 console.log(k);
+
+//Chaining
+const company = {
+    name:'GP', 
+    ceo: { id: 12, name: 'ajmol', food: 'fuska'},
+    web: {
+    work: 'website development', 
+    employee: 22, 
+    framework:'react',
+    tech: {
+    first: 'html', second: 'css', third: 'js'}},};
+// console.log(company.web.tech.third);
+console.log(company.backend?.tech.third); //Question mark tells 'if it is not found, give 'undefined'.
